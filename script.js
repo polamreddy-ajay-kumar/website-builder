@@ -1,16 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll('button');
-
-  buttons.forEach((button) => {
-    button.addEventListener('click', () => {
-      const text = button.textContent.trim();
-      if (text.toLowerCase().includes('start') || text.toLowerCase().includes('launch')) {
-        button.textContent = 'Launching...';
-        setTimeout(() => {
-          button.textContent = text;
-        }, 1200);
-      }
+  const downloadButton = document.querySelector('.download-btn');
+  if (downloadButton) {
+    downloadButton.addEventListener('click', () => {
+      downloadButton.textContent = 'Opening download...';
+      setTimeout(() => {
+        downloadButton.textContent = 'Download APK';
+      }, 1500);
     });
-  });
+  }
 });
 

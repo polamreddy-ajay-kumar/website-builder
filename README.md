@@ -1,29 +1,38 @@
-# Website Builder
+# A4MP DEV
 
-This repository contains a simple, modern website builder landing page prototype.
+This repository contains the public landing page for the A4MP DEV app.
 
-## Features
-- Clean hero section
-- Feature cards
-- Template gallery
-- Pricing section
-- Responsive layout
-- Static HTML/CSS/JS setup
+## Project type
+Static website with APK download section.
 
-## Run locally
-Open `index.html` in a browser or use a small local server:
+## Files
+- `index.html` — landing page
+- `style.css` — styles
+- `script.js` — simple UI interactions
+
+## Local preview
+Open `index.html` directly in a browser, or run:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then visit `http://localhost:8000`.
+Then visit: `http://localhost:8000`
+
+## APK link
+The download button currently points to a placeholder URL:
+
+```text
+https://your-download-link.com/a4mp-dev-release.apk
+```
+
+Replace it with your actual APK file link (GitHub Releases, Google Drive, or Firebase Storage) before publishing.
 
 ## Deploy
-You can deploy this static site on:
+You can deploy this static website on:
 - GitHub Pages
 - Netlify
 - Vercel
 
 ## Notes
-This is a starting UI prototype for a website builder app.
+This is a startup landing page for the A4MP DEV app and is ready for publishing.
