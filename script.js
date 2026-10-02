@@ -5,8 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
       downloadButton.textContent = 'Opening download...';
       setTimeout(() => {
         downloadButton.textContent = 'Download APK';
-      }, 1500);
+      }, 1400);
     });
   }
 });
-

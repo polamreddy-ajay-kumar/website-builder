@@ -3,12 +3,14 @@
 This repository contains the public landing page for the A4MP DEV app.
 
 ## Project type
-Static website with APK download section.
+Static website for Android APK app promotion.
 
-## Files
-- `index.html` — landing page
-- `style.css` — styles
-- `script.js` — simple UI interactions
+## Included
+- premium landing page
+- app icon concept using an A4 monogram
+- multilingual features section
+- download call-to-action
+- responsive layout
 
 ## Local preview
 Open `index.html` directly in a browser, or run:
@@ -20,19 +22,17 @@ python3 -m http.server 8000
 Then visit: `http://localhost:8000`
 
 ## APK link
-The download button currently points to a placeholder URL:
+Replace the placeholder URL in `index.html` with your real APK file URL before publishing:
 
 ```text
 https://your-download-link.com/a4mp-dev-release.apk
 ```
 
-Replace it with your actual APK file link (GitHub Releases, Google Drive, or Firebase Storage) before publishing.
-
 ## Deploy
-You can deploy this static website on:
+You can publish this on:
 - GitHub Pages
 - Netlify
 - Vercel
 
 ## Notes
-This is a startup landing page for the A4MP DEV app and is ready for publishing.
+This is a polished promotional landing page for the A4MP DEV app.
